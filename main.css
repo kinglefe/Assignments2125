@@ -1,0 +1,72 @@
+/* This block is to style the header for all the pages  */
+body {
+    background: url(images/background.jpg);
+}
+.wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    box-shadow: 0px 0px 20px;
+}
+
+#_display {
+    height: 7em;
+    background: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    
+}
+
+#_display h1 {
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main img {
+    width: 100%;
+}
+/* end of heading styles */
+
+/* This is the style of the main content on the page */
+h2 {
+    padding-top: 15px;
+    color: lightseagreen;
+    font-style: italic;
+}
+ 
+p {
+    font-size: 18px;
+}
+
+#_luxuries {
+    font-size: 16px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* Styles for the condo page */
+
+dl dt {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+dl dd {
+    font-size: 18px;
+}
